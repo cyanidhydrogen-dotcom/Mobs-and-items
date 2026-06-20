@@ -1,0 +1,16 @@
+name: CustomMobsWeapons
+version: 1.0.0
+api: 5.0.0
+main: CustomMobsWeapons\Main
+author: ChatGPT
+description: Ajoute des mobs et des armes personnalisées.
+
+commands:
+  custom:
+    description: Commande principale du plugin
+    usage: "/custom"
+    permission: custom.use
+
+permissions:
+  custom.use:
+    default: op
